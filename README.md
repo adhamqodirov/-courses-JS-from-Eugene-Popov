@@ -1,2 +1,1 @@
-# course-JS-from-Eugene-Popov
-Курс обучения JS от Евгения Попова по YouTube
+# course-JS-from-Eugene-PopКурс обучения JS от Евгения Попова по YouTube
