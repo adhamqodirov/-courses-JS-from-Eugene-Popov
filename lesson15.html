@@ -9,15 +9,15 @@
   <div>
       <script type="text/javascript">
 
-var days = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
-var count = days.length;
-document.write("Количество документов: " + count);
+var fruits = ["апельсин", "банан", "груша"];
 
-var students = ["Абаканов Сергей", "Апалина Алина", "Гагарин Матвей", "Хантухова Лейла"];
-students.push("Сакуров Иоган");
-students.unshift("Тимонов Вячеслав")
-students.pop();
-document.write("Первый студент: " + students[students.length -1]);
+document.write("На данный момент у нас в массиве фруктов: " + fruits.length + "</br>");
+fruits.push("яблоко", "ананас");
+fruits.unshift("грейпфрукт");
+document.write("На данный момент у нас в массиве фруктов: " + fruits.length + "</br>");
+fruits.pop();
+fruits.shift();
+document.write("На данный момент у нас в массиве фруктов: " + fruits.length + "</br>");
 
       </script>
   </div>

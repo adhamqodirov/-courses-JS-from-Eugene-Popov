@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Курс по JavaScript</title>
+</head>
+<body>
+
+  <div>
+      <script type="text/javascript">
+
+// метод splice
+
+var students = ["Абаканов Сергей", " Апалина Алина", " Гагарин Матвей", " Хантухова Лейла", " Сакуров Иоган"];
+students.splice(3, 2);
+document.write(students + "</br>");
+
+students.splice(2, 0, " Эллу Мухачеву", " Василий Врейденбург");
+document.write(students + "</br>");
+
+students.splice(1,2, " Виталий Петров", " Дженсон Баттон");
+document.write(students + "</br>");
+
+var fruits = ["апельсин", "банан", "груша", "гранат"];
+fruits.splice(fruits.length - 2,1, "ананас");
+document.write(fruits + "</br>");
+
+var fruits = ["банан", "мандарин", "манго"];
+fruits.splice(fruits.length - 2,1, "ананас");
+document.write(fruits + "</br>");
+
+
+      </script>
+  </div>
+
+</body>
+</html>
