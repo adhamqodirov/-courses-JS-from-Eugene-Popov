@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Курс по JavaScript</title>
+</head>
+<body>
+
+  <div>
+      <script type="text/javascript">
+          
+          
+          
+
+    // Свойства и методы объекта string (работа со строками)
+          
+     /* var myString = "Очень горячее Солнце. Очень большое Солнце.";
+        document.write(myString.indexOf("Солнце")); */
+          
+          
+    /*var mySite = "http://ruseller.com";
+          function myCheck(myString) {
+              if (myString.indexOf("http://") == -1) {
+                  document.write("В названии сайта не присутствует название протокола")
+              }
+              else {
+                  document.write("В названии сайта есть название с протоколом")
+              }
+          }
+          
+          myCheck(mySite); */
+          
+          
+        /* var mySite = "http://ruseller.com";
+          var myDomen = mySite.slice(7);
+          var myRoot = mySite.slice(7,15);
+          document.write(myRoot);       */
+          
+          
+          
+       /*   var myStr = "Хороший день";
+          var day = myStr.slice(8,12);
+          document.write(day);   */
+          
+          var city = "Самара";
+          document.write(city.charAt(2) + "</br>");
+          
+          
+          var city = "Самара";
+          document.write(city.charCodeAt(2) + "</br>");
+          
+          var name = "Иваi";
+         /* var rusLetters = "аяАЯ";
+          document.write(rusLetters.charCodeAt(0) + "</br>");
+          document.write(rusLetters.charCodeAt(1) + "</br>");
+          document.write(rusLetters.charCodeAt(2) + "</br>");
+          document.write(rusLetters.charCodeAt(3) + "</br>");
+            //1040 - 1103 */
+          
+          for (var i = 0; i < name.length; i++) {
+              if (name.charCodeAt(i) <1040 || name.charCodeAt > 1103) {
+                  document.write("Найден символ, который не попадает в диапозон русских букв. Это символ <strong>" + name.charAt(i) + "</strong></br>");
+              }
+          }
+          
+      </script>
+  </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
