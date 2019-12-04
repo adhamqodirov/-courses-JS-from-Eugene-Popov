@@ -8,8 +8,36 @@
 
   <div>
       <script type="text/javascript">
+    // isNAN() - это не число?
           
- 
+    /*      var fruits = "Апельсин";
+          var count = 10;
+          
+          if (isNaN(fruits)) {
+              document.write("В переменной не число!");
+              }
+ else {
+     document.write(fruits);
+ } */
+          
+          var randSimbol = {"Молоко", 77, 11, "Мед", -88};
+          
+          function arrayTest (anyArray) {
+              
+              for (var i = 0; i < anyArray.length; i++) {
+                  
+            if (isNaN(anyArray[i])) {
+            document.write("Элемент массива: " + anyArray[i] + " не является числом");
+        }    
+            else {
+                  document.write("Элемент массива: " + anyArray[i] + " является числом");
+        }
+                  
+        }
+              
+        }
+          
+          arrayTest(randSimbol);
           
       </script>
   </div>
