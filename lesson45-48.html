@@ -30,14 +30,25 @@
           var result = test.search(regV);
           document.write(result); */
           
-          
+       /*   
           var myindex = "450000";
           var regV = /^\d{6}$/;
           var result = myindex.search(regV);
-          document.write(result);
+          document.write(result); */
           
+    var forTesting = "8 пингвинов и 9 карасей.";
+    
+    function numberTest(myString) {
+    var regV = /^\d/;    
           
-          
+    if (myString.search(regV) == -1) {
+        document.write("Строка начинается не с цифры");
+    }
+    else {
+        document.write("Строка начинается с цифры");
+    }    
+    }
+     numberTest(forTesting);     
           
           
           

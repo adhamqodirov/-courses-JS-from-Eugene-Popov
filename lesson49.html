@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Курс по JavaScript</title>
+</head>
+<body>
+
+  <div>
+      <script type="text/javascript">
+          
+    // Свойства и методы объекта string (работа со строками)
+   
+
+/*var peoples = "Иванов Иван Иванович тел. 8(495)120-10-87 г. Москва; Петров Петр Петрович тел. 8(495)234-62-11 г. Москва; Сидоров Сидр Сидорович 8(347)211-90-63 г. Уфа ";
+var regV = /8\(495\)\d{3}-\d{2}-\d{2}/g;
+var result = peoples.match(regV);
+document.write(result); */
+          
+      var text = "Иван вчера потерял кредитку, ее номер 1178-9087-2384-8787. Поэтому он пошел в банк. Там пошли ему навстречу и выдали новую кредитку под номером: 1103-8899-0811-1722";
+var regV = /[0123]{4}[-\d]{2,}/g;
+result = text.match(regV);
+document.write(result);
+          
+      </script>
+  </div>
+
+    
+    
